@@ -29,7 +29,9 @@ bedtools intersect -a sub -b DATABASES_HG19/hg19GENEname_sorted.bed -wb > annota
 bedtools intersect -a DATABASES_HG19/scandbHG19CEU_sorted.bed -b sorted.bed > cnv.bed
 
 bedtools intersect -a DATABASES_HG19/plurinetHG19_sorted.bed -b sub > pluripotency.bed
+
 bedtools intersect -a DATABASES_HG19/CosmicHG19_sorted.bed -b sub > cancer.bed
+
 bedtools intersect -a DATABASES_HG19/TFHG19_sorted.bed -b sub > TF.bed
 
 echo "---------------------------------" >> $log_file
@@ -67,7 +69,6 @@ echo "Number of pluripotency genes :" >> $log_file
 awk '!arr[$4]++' pluripotency.bed > pluripotency_uniq.bed
 wc -l pluripotency_uniq.bed >> $log_file
 cat pluripotency_uniq.bed >> $log_file
-cat log_file.log
 
 
 echo "--------------------" >> $log_file
