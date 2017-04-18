@@ -17,4 +17,4 @@ $sh acgh_direct_HG19.sh example.bed
 
 EXAMPLE FILE:
 "example.bed" with minimum 5 columns needs to be pass as first parameter of the shell line
-bed file needs to be placed at the parental directory so same the directory than the script!
+bed file needs to be place at the parental directory so same the directory than the script!
