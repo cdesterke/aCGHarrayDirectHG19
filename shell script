@@ -5,7 +5,7 @@
 ##april 2017 version 1.0
 ##dependencies: need to install bedtools package, install databases files in subfolder "DATABASES_HG19/" 
 ##database file dependencies: hg19GENEname_sorted.bed and scandbHG19CEU_sorted.bed and CosmicHG19_sorted.bed and plurinetHG19_sorted.bed and TFHG19_sorted.bed
-##usage: sh acgh.sh example.bed (input *.bed file as first parameter of shell line) 
+##usage: sh aCGHarrayDirecHG19.sh example.bed (input *.bed file as first parameter of shell line) 
 
 variable=${1}
 if [ -z "${variable}" ]
@@ -34,7 +34,7 @@ bedtools intersect -a DATABASES_HG19/TFHG19_sorted.bed -b sub > TF.bed
 
 echo "---------------------------------" >> $log_file
 echo "log of the aCGH annotation on HG19 human genome" >> $log_file
-echo "analyse du ficher = $nom_fichier" >> $log_file
+echo "analysis of the file = $nom_fichier" >> $log_file
 echo "--------------------" >> $log_file
 cal 
 
