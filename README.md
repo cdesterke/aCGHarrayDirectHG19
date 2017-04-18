@@ -4,8 +4,6 @@ Shell script which allowed to remove european CNV polymorphism and annotate down
 This script needs the installation of Bedtools utilities in the OS environement.
 This script also needs dependencies of installing 5 annotation databases in the subfolder DATABASES_HG19:
 
-This script needs the installation of Bedtools utilities in the OS environement.
-This script also needs dependencies of installing 5 annotation databases in the subfolder DATABASES_HG19:
 - hg19GENEname_sorted.bed: Refseq HG19 annotations
 - scandbHG19CEU_sorted.bed: CNV polymorphisms in european population, data derived from http://www.scandb.org/ website
 - plurinetHG19_sorted.bed: genes that are characterized as belonging to a pluripotency network (PLURINET DB)
