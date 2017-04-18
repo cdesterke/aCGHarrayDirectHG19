@@ -1,5 +1,5 @@
 # aCGHarrayDirectHG19
-Shell script which allow to remove european CNV polymorphism and annotate downstream genomic intervals on HG19 human genome especially with cancer genes from COSMIC database, pluripotent genes from Plurinet database, and transcription factor molecules.
+Shell script which allow to remove european CNV polymorphism and to annotate downstream genomic intervals on HG19 human genome especially with cancer genes from COSMIC database, pluripotent genes from Plurinet database, and transcription factor molecules.
 
 This script needs the installation of Bedtools utilities in the OS environement.
 This script also needs dependencies of installing 5 annotation databases in the subfolder DATABASES_HG19:
