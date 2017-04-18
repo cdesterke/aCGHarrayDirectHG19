@@ -3,7 +3,7 @@
 ##aCGH script annotation of bed files with 5 first columns of interest
 ##auteur: Christophe Desterke
 ##april 2017 version 1.0
-##dependencies: need to install bedtools package, install databases files in subfolder "DATA/" 
+##dependencies: need to install bedtools package, install databases files in subfolder "DATABASES_HG19/" 
 ##database file dependencies: hg19GENEname_sorted.bed and scandbHG19CEU_sorted.bed and CosmicHG19_sorted.bed and plurinetHG19_sorted.bed and TFHG19_sorted.bed
 ##usage: sh acgh.sh example.bed (input *.bed file as first parameter of shell line) 
 
