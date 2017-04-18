@@ -8,7 +8,7 @@ This script also needs dependencies of installing 5 annotation databases in the 
 - scandbHG19CEU_sorted.bed: CNV polymorphisms in european population, data derived from http://www.scandb.org/ website
 - plurinetHG19_sorted.bed: genes that are characterized as belonging to a pluripotency network (PLURINET DB)
 - CosmicHG19.bed: genes presenting somatic alteration in cancer and leukemia
-- TFHG19: census database of molecules classed as transcription factor
+- TFHG19.bed: census database of molecules classed as transcription factor
 
 Script needs to be execute in BASH environnement with previous dependencies:
 
