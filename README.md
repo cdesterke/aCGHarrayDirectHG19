@@ -16,4 +16,4 @@ USAGE:
 $sh acgh_direct_HG19.sh example.bed 
 
 EXAMPLE FILE:
-"example.bed" with minimum 5 columns needs to be pass as first parameter of the shell line of execution 
+"example.bed" with minimum 5 columns needs to be pass as first parameter of the shell line
