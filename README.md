@@ -24,6 +24,7 @@ DATABASES :
 - COSMIC database (Futreal et al., 2004)
 - Plurinet database (Müller et al., 2008)
 - European CNV polymorphism annotation (Gamazon et al., 2010)
+- RefSeq annotation database on HG19 (O’Leary et al., 2016)
 
 DEPENDENCIES:
 - Bedtools (Quinlan, 2014)
@@ -35,6 +36,8 @@ References
 -Gamazon, E.R., Zhang, W., Konkashbaev, A., Duan, S., Kistner, E.O., Nicolae, D.L., Dolan, M.E., and Cox, N.J. (2010). SCAN: SNP and copy number annotation. Bioinforma. Oxf. Engl. 26, 259–262.
 
 -Müller, F.-J., Laurent, L.C., Kostka, D., Ulitsky, I., Williams, R., Lu, C., Park, I.-H., Rao, M.S., Shamir, R., Schwartz, P.H., et al. (2008). Regulatory networks define phenotypic classes of human stem cell lines. Nature 455, 401–405.
+
+-O’Leary, N.A., Wright, M.W., Brister, J.R., Ciufo, S., Haddad, D., McVeigh, R., Rajput, B., Robbertse, B., Smith-White, B., Ako-Adjei, D., et al. (2016). Reference sequence (RefSeq) database at NCBI: current status, taxonomic expansion, and functional annotation. Nucleic Acids Res. 44, D733-745.
 
 -Quinlan, A.R. (2014). BEDTools: The Swiss-Army Tool for Genome Feature Analysis. Curr. Protoc. Bioinforma. 47, 11.12.1-34.
 
